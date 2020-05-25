@@ -11,10 +11,10 @@ namespace MvcCoreExtension.Controllers
     {
         public IActionResult Index()
         {
-            string sayi = "5j";
+            string sayi = "5j"; 
             int sonuc = sayi.ConvertInt();
 
-            List<int> list = new List<int>();
+            List<int> list = new List<int>(); 
 
             if (list.HashElement())
             { 
